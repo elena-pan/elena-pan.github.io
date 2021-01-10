@@ -47,7 +47,7 @@ class Landing extends Component {
                 <a href="https://www.youtube.com/channel/UCExJR98eGcdssIRf9FlcGfQ" style={{marginRight: "15px"}}>
                   <img src={youtubeLogo} alt="YouTube" height="32px"/>
                 </a>
-                <a href="%PUBLIC_URL%/resume.pdf" style={{marginRight: "15px"}} className="white-text">
+                <a href="https://elena-pan.github.io/resume.pdf" style={{marginRight: "15px"}} className="white-text">
                 <img src={resumeIcon} alt="Resume" height="32px"/>
                 </a>
               </div>
