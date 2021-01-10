@@ -4,15 +4,6 @@ import mousetrapImage from "../images/mousetrap-demo.gif";
 
 function GamesList() {
 
-    function onGameClick(gameName) {
-        if (gameName === "Monopoly") {
-            window.open("https://elena-pan.github.io/unity-monopoly");
-        }
-        else if (gameName === "MouseTrap") {
-            window.open("https://elena-pan.github.io/unity-mousetrap");
-        }
-    }
-
     return (
         <div className="row" style={{marginTop:"30px"}}>
             <div className="col s12 m12 l6">

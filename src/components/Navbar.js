@@ -1,11 +1,10 @@
-import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import React, { useEffect } from "react";
 import { Link } from 'react-scroll';
 import M from "materialize-css";
 
-class Navbar extends Component {
+function Navbar() {
 
-    componentDidMount = () => {
+    useEffect(() => {
         const elems = document.querySelectorAll('.sidenav');
         M.Sidenav.init(elems, { edge:'right' });
         const elems2 = document.querySelectorAll('.collapsible');
@@ -31,44 +30,42 @@ class Navbar extends Component {
                 }
             }
         });
-    }
+    }, []);
 
-    render() {
-        return (
-            <div>
-                <div className="navbar-fixed">
-                <nav className="z-depth-0">
-                    <div className="nav-wrapper black">
-                    <div className="container">
-                    <Link to="#" className="sidenav-trigger right" data-target="mobile-nav">
-                        <i className="material-icons white-text">menu</i>
-                    </Link>
-                    <a href="/">
-                        <b>Elena Pan</b>
-                    </a>
-                    <ul className="right hide-on-med-and-down">
-                            <li>
-                                <Link activeClass="active" to="games" spy={true} smooth={true} duration={1000} className="white-text">
-                                    <b>Games</b>
-                                </Link>
-                            </li>
-                        </ul>
-                    </div>
-                    </div>
-                </nav>
+    return (
+        <div>
+            <div className="navbar-fixed">
+            <nav className="z-depth-0">
+                <div className="nav-wrapper black">
+                <div className="container">
+                <Link to="#" className="sidenav-trigger right" data-target="mobile-nav">
+                    <i className="material-icons white-text">menu</i>
+                </Link>
+                <a href="/">
+                    <b>Elena Pan</b>
+                </a>
+                <ul className="right hide-on-med-and-down">
+                        <li>
+                            <Link activeClass="active" to="games" spy={true} smooth={true} duration={1000} className="white-text">
+                                <b>Games</b>
+                            </Link>
+                        </li>
+                    </ul>
                 </div>
-                
-                <ul className="sidenav collapsible" id="mobile-nav">
-                    <li>
-                        <Link activeClass="active" to="games" spy={true} smooth={true} duration={1000} className="white-text sidenav-close">
-                            Games
-                        </Link>
-                    </li>
-                </ul>
+                </div>
+            </nav>
             </div>
-        );
-    }
+            
+            <ul className="sidenav collapsible" id="mobile-nav">
+                <li>
+                    <Link activeClass="active" to="games" spy={true} smooth={true} duration={1000} className="white-text sidenav-close">
+                        Games
+                    </Link>
+                </li>
+            </ul>
+        </div>
+    );
 }
 
 
-export default (withRouter(Navbar));
+export default Navbar;
