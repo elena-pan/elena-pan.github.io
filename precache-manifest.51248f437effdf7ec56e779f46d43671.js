@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "697642fe6536d92c0ae5924c44b699b0",
+    "revision": "d1c9b6e841264ce58286e342719af958",
     "url": "/index.html"
   },
   {
-    "revision": "57c1876b2e9794a9e969",
+    "revision": "e3c36321b7b9cd58f8b8",
     "url": "/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.cfb62daa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57c1876b2e9794a9e969",
-    "url": "/static/js/main.3b53e12a.chunk.js"
+    "revision": "e3c36321b7b9cd58f8b8",
+    "url": "/static/js/main.cba2bf21.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
@@ -60,15 +60,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/mousetrap-demo.fcf1baab.gif"
   },
   {
-    "revision": "b9826fa011361fad23f252bfafa0f325",
-    "url": "/static/media/music-search-icon.b9826fa0.png"
-  },
-  {
     "revision": "4961ed271cd3d1ace6071db27f36db19",
     "url": "/static/media/smart-garden-icon.4961ed27.png"
   },
   {
-    "revision": "ac1a33ea05ca31a1e7c4d4e14ce23afd",
-    "url": "/static/media/web-scraper-icon.ac1a33ea.jpg"
+    "revision": "1ff5000a28ac158e7acd9ea20eff60a1",
+    "url": "/static/media/virtuobookings-icon.1ff5000a.png"
+  },
+  {
+    "revision": "139ac3d81a06130f05cc49b75c6f9225",
+    "url": "/static/media/web-scraper-icon.139ac3d8.png"
   }
 ]);
