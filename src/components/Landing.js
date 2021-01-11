@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import M from "materialize-css";
-import image from "../images/galaxy.jpeg"
+import image from "../images/galaxy.jpg"
 import emailIcon from "../images/email-icon.png";
 import githubLogo from "../images/github-logo.png";
 import linkedinLogo from "../images/linkedin-logo.png";
@@ -8,6 +8,7 @@ import youtubeLogo from "../images/youtube-logo.png";
 import resumeIcon from "../images/resume-icon.png";
 
 import GamesList from "./GamesList";
+import ProjectsList from "./ProjectsList";
 
 function Landing() {
 
@@ -29,7 +30,7 @@ function Landing() {
 
   return (
     <div>
-      <div className="parallax-container">
+      <div className="parallax-container" style={{height:"100vh"}}>
         <div className="left white-text" style={{marginTop:"10rem", marginLeft: marginLeftSize}}>
           <h1 style={{marginBottom:0}}><b>Elena Pan</b></h1>
           <h5>Honours Software Engineering | University of Waterloo</h5>
@@ -50,11 +51,15 @@ function Landing() {
             <img src={resumeIcon} alt="Resume" height="32px"/>
             </a>
           </div>
-        </div>
+          </div>
         <div className="parallax"><img src={image} alt="" /></div>
       </div>
-      <div style={{paddingLeft:"5rem", paddingRight:"5rem", paddingTop:"5rem"}} className="center" id="games">
-        <h3><b>Games</b></h3>
+      <div style={{padding:"5rem"}} className="center" id="projects">
+        <h3><b>Projects</b></h3>
+        <ProjectsList />
+      </div>
+      <div style={{padding:"5rem"}} className="center grey darken-4" id="games">
+        <h3 className="white-text"><b>Games</b></h3>
         <GamesList />
       </div>
     </div>

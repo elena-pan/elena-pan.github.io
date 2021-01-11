@@ -16,7 +16,7 @@ function GamesList() {
     return (
         <div className="row" style={{marginTop:"30px"}}>
             <div className="col s12 m12 l6">
-            <div className="card waves-effect waves-light hoverable hoverable" style={{height:"420px"}} onClick={() => onGameClick("Monopoly")}>
+            <div className="card waves-effect hoverable" style={{height:"420px"}} onClick={() => onGameClick("Monopoly")}>
                 <div className="card-image">
                     <img src={monopolyImage} alt="" style={{objectFit:"cover", height:"320px"}} />
                 </div>
@@ -26,7 +26,7 @@ function GamesList() {
             </div>
             </div>
             <div className="col s12 m12 l6">
-            <div className="card waves-effect waves-light hoverable hoverable" style={{height:"420px"}} onClick={() => onGameClick("MouseTrap")}>
+            <div className="card waves-effect hoverable" style={{height:"420px"}} onClick={() => onGameClick("MouseTrap")}>
                 <div className="card-image">
                     <img src={mousetrapImage} alt="" style={{objectFit:"cover", height:"320px"}} />
                 </div>
