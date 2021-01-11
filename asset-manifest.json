@@ -1,25 +1,34 @@
 {
   "files": {
     "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.be84c211.chunk.js",
-    "main.js.map": "/static/js/main.be84c211.chunk.js.map",
+    "main.js": "/static/js/main.3b53e12a.chunk.js",
+    "main.js.map": "/static/js/main.3b53e12a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/js/2.bfb8514e.chunk.js": "/static/js/2.bfb8514e.chunk.js",
-    "static/js/2.bfb8514e.chunk.js.map": "/static/js/2.bfb8514e.chunk.js.map",
+    "static/js/2.cfb62daa.chunk.js": "/static/js/2.cfb62daa.chunk.js",
+    "static/js/2.cfb62daa.chunk.js.map": "/static/js/2.cfb62daa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.659312f152f62cd56e14ba81e0d5c550.js": "/precache-manifest.659312f152f62cd56e14ba81e0d5c550.js",
+    "precache-manifest.112175b59f1c8a8c85bd8f1fa6afb0c9.js": "/precache-manifest.112175b59f1c8a8c85bd8f1fa6afb0c9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.bfb8514e.chunk.js.LICENSE.txt": "/static/js/2.bfb8514e.chunk.js.LICENSE.txt",
-    "static/media/galaxy.jpeg": "/static/media/galaxy.a2b61295.jpeg",
+    "static/js/2.cfb62daa.chunk.js.LICENSE.txt": "/static/js/2.cfb62daa.chunk.js.LICENSE.txt",
+    "static/media/batch-emailer-icon.jpg": "/static/media/batch-emailer-icon.ac141684.jpg",
+    "static/media/chatbot-icon.png": "/static/media/chatbot-icon.5cd8b59c.png",
+    "static/media/chefpan-icon.png": "/static/media/chefpan-icon.94ea4460.png",
+    "static/media/fitspire-icon.jpg": "/static/media/fitspire-icon.6dc5c6b4.jpg",
+    "static/media/galaxy.jpg": "/static/media/galaxy.eeee5f2d.jpg",
+    "static/media/link-icon.png": "/static/media/link-icon.41664a51.png",
     "static/media/monopoly-demo.gif": "/static/media/monopoly-demo.563dba5c.gif",
-    "static/media/mousetrap-demo.gif": "/static/media/mousetrap-demo.fcf1baab.gif"
+    "static/media/monopoly2d-icon.jpg": "/static/media/monopoly2d-icon.797c8b2a.jpg",
+    "static/media/mousetrap-demo.gif": "/static/media/mousetrap-demo.fcf1baab.gif",
+    "static/media/music-search-icon.png": "/static/media/music-search-icon.b9826fa0.png",
+    "static/media/smart-garden-icon.png": "/static/media/smart-garden-icon.4961ed27.png",
+    "static/media/web-scraper-icon.jpg": "/static/media/web-scraper-icon.ac1a33ea.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
-    "static/js/2.bfb8514e.chunk.js",
+    "static/js/2.cfb62daa.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.be84c211.chunk.js"
+    "static/js/main.3b53e12a.chunk.js"
   ]
 }
