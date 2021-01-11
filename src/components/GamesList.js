@@ -6,10 +6,10 @@ function GamesList() {
 
     function onGameClick(gameName) {
         if (gameName === "Monopoly") {
-            window.open("https://elena-pan.github.io/unity-monopoly");
+            window.open("https://elena-pan.github.io/Unity-Monopoly");
         }
         else if (gameName === "MouseTrap") {
-            window.open("https://elena-pan.github.io/unity-mousetrap");
+            window.open("https://elena-pan.github.io/Unity-Mousetrap");
         }
     }
 
