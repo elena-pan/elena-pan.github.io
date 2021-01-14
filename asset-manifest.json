@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/static/js/main.cba2bf21.chunk.js",
-    "main.js.map": "/static/js/main.cba2bf21.chunk.js.map",
+    "main.css": "/static/css/main.69eda509.chunk.css",
+    "main.js": "/static/js/main.d18d103e.chunk.js",
+    "main.js.map": "/static/js/main.d18d103e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
     "static/js/2.cfb62daa.chunk.js": "/static/js/2.cfb62daa.chunk.js",
     "static/js/2.cfb62daa.chunk.js.map": "/static/js/2.cfb62daa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.51248f437effdf7ec56e779f46d43671.js": "/precache-manifest.51248f437effdf7ec56e779f46d43671.js",
+    "precache-manifest.8d324511eae25edcfe8b174914d7a4f4.js": "/precache-manifest.8d324511eae25edcfe8b174914d7a4f4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/css/main.69eda509.chunk.css.map": "/static/css/main.69eda509.chunk.css.map",
     "static/js/2.cfb62daa.chunk.js.LICENSE.txt": "/static/js/2.cfb62daa.chunk.js.LICENSE.txt",
     "static/media/batch-emailer-icon.jpg": "/static/media/batch-emailer-icon.ac141684.jpg",
     "static/media/chatbot-icon.png": "/static/media/chatbot-icon.5cd8b59c.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
     "static/js/2.cfb62daa.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.cba2bf21.chunk.js"
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.d18d103e.chunk.js"
   ]
 }
